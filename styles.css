@@ -1,0 +1,189 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body Styles */
+body {
+    font-family: cursive;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #2d2929;
+    background-color: #eaecf1;
+}
+
+/* Header Styles */
+header {
+    background-color:slateblue;
+    color: #fff;
+    text-align: center;
+    padding: 2em 0;
+}
+
+header h1 {
+    font-family: cursive;
+    font-size: 3em;
+    margin-bottom: 0.3em;
+    letter-spacing: 2px;
+}
+
+header p {
+    font-size: 1.2em;
+    opacity: 0.8;
+    letter-spacing: 1px;
+}
+
+/* Navigation Styles */
+nav {
+    text-align: center;
+    background-color: #444;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #4b3f3f;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff9800;
+}
+
+/* Main Content Styles */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+/* About Section Styles */
+#about {
+    background-color: #e0e5ec;
+    padding: 2em 0;
+}
+
+#about h2 {
+    font-size: 2em;
+    margin-bottom: 0.2em;
+}
+
+#about p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    opacity: 0.9;
+}
+
+/* Projects Section Styles */
+/*#projects {
+    padding: 1em 0;
+}*/
+#projects h2 {
+    font-size: 2em;
+    margin-bottom: 0.2em;
+}
+
+
+.project h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.3em;
+}
+
+.project p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    opacity: 0.8;
+    margin-bottom: 0.5em;
+}
+
+/* Contact Section Styles */
+#contact {
+    background-color: rgb(147, 137, 212);
+    color: #fff;
+    padding: 2em 0;
+}
+
+#contact h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+#contact p {
+    font-size: 1.1em;
+    opacity: 0.9;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color:slateblue;
+    color: #fff;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .container {
+        padding: 1em;
+    }
+}
+
+#ViewResume {
+    background-color:royalblue;
+    border: none;
+    color: white; 
+    padding: 6px 20px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px; 
+}
+
+#ViewResume:hover {
+    background-color: cornflowerblue;
+}
+.a{
+    font-weight: bold;
+}
+
+.send-button {
+    background-color: royalblue; 
+    border: none;
+    color: white; 
+    padding: 4px 14px; 
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px; 
+}
+
+.send-button:hover {
+    background-color: cornflowerblue;
+}
+
+.z{
+    background-color:aliceblue;
+    border-radius: 5px;
+}
